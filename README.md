@@ -19,4 +19,6 @@ https://khadija-ghulam-nabi.github.io/Landing-Page-Project/
 2. Custom Favicon: A unique favicon enhances the website's branding.
 
 3. Stylish Layout: Clean and visually appealing design using pure CSS.
+
+🔧 Improvements: Responsiveness 
        
