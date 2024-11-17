@@ -6,10 +6,13 @@
          
 🛠️ Technologies Used:
 HTML5: For structuring the content.
+
 CSS3: For styling and layout.
          
 🌟 Features: 
 Dynamic Navigation: Interactive navigation menu for seamless browsing.
+
 Custom Favicon: A unique favicon enhances the website's branding.
+
 Stylish Layout: Clean and visually appealing design using pure CSS.
        
