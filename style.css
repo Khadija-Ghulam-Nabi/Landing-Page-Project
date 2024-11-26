@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+width: 100%;
+height: 100%;        
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+#left{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1620504155085-d7b152a58e77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8);
+    background-position: center;
+    background-size: cover;
+}
+
+#top-left{
+    width: 50%;
+    height: 100%;
+    /* background-image: url(https://api.photon.aremedia.net.au/wp-content/uploads/sites/6/2019/04/five-feet-apart-main.jpg?fit=640%2C534);  */
+    background-image: url(https://images.unsplash.com/photo-1618255037265-ed4e83cf3323?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#top-right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1729485792644-46c1a6275c30?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YSUyMGdpcmwlMjB0dXJuaW5nJTIwYmFjayUyMHBvc2l0aXZpdHl8ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 70px;
+}
+h3{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+h3 :active,:visited, :focus{
+    color: black;
+}
+h3:hover{
+    color: blue;
+}
+h4{
+    margin-right: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 0.8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h4 :active,:visited, :focus{
+    color: black;
+}
+h4:hover{
+    color: blue;
+}
+#icon1{
+    opacity: 0.4;
+    font-size: 30px;
+}
+#icon1:hover{
+    background-color: gray;
+    border-radius: 50px;
+    opacity: 1.0;
+}
+#icon2{
+    opacity: 0.7;
+    font-size: 30px;
+    color: blue;
+}
+a:active,:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+section > h1{
+    font-size: 80px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    margin-right: 70px;
+}
+a{
+    text-decoration: none; 
+}
+a:hover{
+    text-decoration: none;
+}
+P{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+@media(max-width: 500px){
+    #main{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+    #main #left{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 50px;
+    }
+    #main #right{
+        width: 100%;
+        height: 50%;
+    }
+    #main #left section h1{
+        font-size: 70px;
+        position: relative;
+        bottom: 40px;
+        margin-right: 150px;
+    
+    }
+    #main #left nav h3{
+        margin-right:10px ;
+    }
+    #main #left nav h4{
+        margin-left:10px ;
+    }
+    #main #left nav{
+        position: relative;
+        bottom: 5px;
+        right: 8px;
+    }
+   #main #left section p{
+    position: relative;
+    bottom: 45px;
+   }
+
+}
